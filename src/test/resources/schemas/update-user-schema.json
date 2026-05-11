@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Update User Response",
+  "description": "Contract schema for PUT/PATCH /api/users/{id}",
+  "type": "object",
+  "required": ["name", "job", "updatedAt"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "job": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

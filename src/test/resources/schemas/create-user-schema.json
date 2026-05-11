@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Create User Response",
+  "description": "Contract schema for POST /api/users",
+  "type": "object",
+  "required": ["name", "job", "id", "createdAt"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "job": {
+      "type": "string",
+      "minLength": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}
