@@ -142,4 +142,8 @@ public class UserAdvancedContractTest extends BaseTest {
                 .expectContentType(ContentType.JSON)
                 .assertContract();
     }
+
+    public void placeholderMEthod(){
+
+    }
 }
