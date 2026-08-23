@@ -144,6 +144,6 @@ public class UserAdvancedContractTest extends BaseTest {
     }
 
     public void placeholderMEthod(){
-
+        System.out.println("==THis is placeholder method===");
     }
 }
